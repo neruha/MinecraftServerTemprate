@@ -11,23 +11,23 @@
 verbose: false
 settings:
   messages:
-    cannot-ride-mob: <red>You cannot mount that mob
-    afk-broadcast-away: <yellow><italic>%s is now AFK
-    afk-broadcast-back: <yellow><italic>%s is no longer AFK
+    cannot-ride-mob: <red>そのモブに乗ることはできません。
+    afk-broadcast-away: <yellow><italic>%s はAFK中です。
+    afk-broadcast-back: <yellow><italic>%s はAFKから復帰しました。
     afk-tab-list-prefix: '[AFK] '
     afk-tab-list-suffix: ''
-    credits-command-output: <green>%s has been shown the end credits
-    demo-command-output: <green>%s has been shown the demo screen
-    ping-command-output: <green>%s's ping is %sms
-    tpsbar-command-output: <green>Tpsbar toggled <onoff> for <target>
-    dont-run-with-scissors: <red><italic>Don't run with scissors!
-    uptime-command-output: <green>Server uptime is <uptime>
+    credits-command-output: <green>%s にエンドクレジットが表示されました。
+    demo-command-output: <green>%s にデモ画面が表示されました。
+    ping-command-output: <green>%sのPingは%smsです。
+    tpsbar-command-output: <green><target>のTPS Barが<onoff>になりました
+    dont-run-with-scissors: <red><italic>ハサミで走らないでください！
+    uptime-command-output: <green>サーバーの起動時間は<uptime>です。
     unverified-username: default
     sleep-skipping-night: default
     sleeping-players-percent: default
     death-message:
-      run-with-scissors: <player> slipped and fell on their shears
-      stonecutter: <player> has sawed themself in half
+      run-with-scissors: <player>はハサミで走って転びました,,あぶない！
+      stonecutter: <player>は自分自身を半分にのこぎりで切った,,ぐへぇ！
   server-mod-name: Purpur
   disable-give-dropping: false
   use-alternate-keepalive: false
@@ -69,14 +69,14 @@ settings:
     hide-hidden-players-from-entity-selector: false
     uptime:
       format: <days><hours><minutes><seconds>
-      day: '%02d day, '
-      days: '%02d days, '
-      hour: '%02d hour, '
-      hours: '%02d hours, '
-      minute: '%02d minute, and '
-      minutes: '%02d minutes, and '
-      second: '%02d second'
-      seconds: '%02d seconds'
+      day: '%02d 日, '
+      days: '%02d 日, '
+      hour: '%02d 時間, '
+      hours: '%02d 時間, '
+      minute: '%02d 分, と '
+      minutes: '%02d 分, と '
+      second: '%02d 秒'
+      seconds: '%02d 秒'
   blocks:
     barrel:
       rows: 3
