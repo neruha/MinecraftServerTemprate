@@ -33,11 +33,11 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  restart: Server is restarting
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
+  restart: サーバーは再起動しています。しばらくしてから接続してください。
+  whitelist: あなたはこのサーバーのホワイトリストに登録されていません。
+  unknown-command: 存在しないコマンドです。 /helpを使ってコマンドを確認しましょう。
+  server-full: サーバーの人数が満員です。
+  outdated-client: 古いバージョンです。 {0}をお使いください。
   outdated-server: Outdated server! I'm still on {0}
 commands:
   log: true
